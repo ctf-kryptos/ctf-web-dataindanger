@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Liste des utilisateurs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .user-table {
+      width: 600px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    
+    h2 {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #f9f9f9;
+      margin: 0;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-table">
+    <h2>Liste des utilisateurs</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Fonction</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>Utilisateur</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>Administrateur</td>
+        </tr>
+        <tr>
+          <td>Arthur Foxwell</td>
+          <td>Utilisateur</td>
+        </tr>
+        <tr>
+            <td>Shawn McMulli</td>
+            <td>Utilisateur</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+  <a href="./index.html">Se déconnecter</a>
+</body>
+</html>
